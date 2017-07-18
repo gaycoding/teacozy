@@ -8,12 +8,16 @@ html {
   text-align: center;
 }
 
+a {
+  color: seashell;
+}
+
 /* Header */
 .header {
   top: 0;
   left: 0;
   position: fixed;
-  z-index: 20;
+  z-index: 2;
   display: flex;
   width: 100%;
   height: 69px;
@@ -42,4 +46,29 @@ nav li {
 /* Container */
 .content {
   position: relative;
+}
+
+.mission {
+  margin: 70px auto 0px auto;
+}
+
+.featured {
+margin: 70px auto 0px auto;
+}
+
+.locations {
+margin: 70px auto 0px auto;
+}
+
+/* Footer */
+.footer {
+
+}
+
+.contact {
+
+}
+
+.copyright {
+
 }
