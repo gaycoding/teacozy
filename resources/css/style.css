@@ -50,7 +50,9 @@ nav li {
 }
 
 .caption {
-
+flex-direction: column;
+display: flex;
+background-color: black;
 }
 
 .mission {
@@ -69,20 +71,44 @@ nav li {
 .missionimg .caption {
     background-color: black;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 110px;
+    height: 90px;
     padding: 10px 0px;
     align-items: center;
+    justify-content: space-between;
   }
+
+.missionimg .caption h2, .missionimg .caption h4{
+  margin: 0px;
+}
 
 .featured-tea {
   margin: 70px auto 0px auto;
 }
 
+.featured-tea .teas {
+
+}
+
 .featured-tea .tea {
-  
+
+}
+
+.featured-tea .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-tea .caption {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.featured-tea .caption h2, .featured-tea .caption h4{
+  margin: 0px;
 }
 
 .tea img {
