@@ -46,6 +46,7 @@ nav li {
 /* Container */
 .content {
   position: relative;
+  display: block;
 }
 
 .caption {
@@ -57,7 +58,7 @@ nav li {
 }
 
 .missionimg {
-  background-image: url(.././images/img-mission-background.png);
+  background-image: url(../images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
   margin: 70px auto 0px auto;
@@ -71,11 +72,26 @@ nav li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90px;
+    height: 110px;
     padding: 10px 0px;
+    align-items: center;
+  }
 
-.featured {
+.featured-tea {
   margin: 70px auto 0px auto;
+}
+
+.featured-tea .tea {
+  
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea h4 {
+  margin-top: 10px;
 }
 
 .locations {
