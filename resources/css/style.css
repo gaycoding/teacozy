@@ -87,6 +87,7 @@ background-color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
 }
 
 .featured-tea .tea {
@@ -117,22 +118,33 @@ background-color: black;
 
 .locations {
   margin: 70px auto 0px auto;
-}
-
-
-.locationsimg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
   margin: 70px auto 0px auto;
 }
 
-.location {
+.locations .caption{
+  position: absolute;
+  top: 45px;
+}
+
+.locations .location {
   background-color: black;
-  padding: 40px;
-  padding-top: 15px;
   opacity: 1;
   height: 300px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.location h3, .location p {
+  margin: 0px;
 }
 
 /* Footer */
