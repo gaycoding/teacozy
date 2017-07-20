@@ -50,9 +50,7 @@ nav li {
 }
 
 .caption {
-flex-direction: column;
-display: flex;
-background-color: black;
+
 }
 
 .mission {
@@ -75,6 +73,8 @@ background-color: black;
     padding: 10px 0px;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+    display: flex;
   }
 
 .missionimg .caption h2, .missionimg .caption h4{
@@ -101,6 +101,8 @@ background-color: black;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
+    flex-direction: column;
+    display: flex;
   }
 
 .featured-tea .caption h2, .featured-tea .caption h4{
@@ -123,14 +125,17 @@ background-color: black;
   justify-content: center;
   align-items: center;
   background-image: url(../images/img-locations-background.jpg);
+  background-position:center 18%;
   height: 500px;
   width: 1200px;
-  margin: 70px auto 0px auto;
 }
 
 .locations .caption{
-  position: absolute;
-  top: 45px;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  top: 25px;
 }
 
 .locations .location {
@@ -141,6 +146,12 @@ background-color: black;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  margin: 15px 40px;
+}
+
+.locations .places {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .location h3, .location p {
@@ -148,14 +159,14 @@ background-color: black;
 }
 
 /* Footer */
-.footer {
-  height: 200px;
-}
-
 .contact {
-
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .copyright {
-text-align: left;
+  text-align: left;
+  margin: 0 20px;
+  padding: 0px 0px 40px 0px;
 }
